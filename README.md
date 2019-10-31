@@ -20,3 +20,6 @@ As you can see in the code, that's all it does.
 The code I've uploaded already has a random mutation in its CURRENT_SEQUENCE, so any further infections will bear the mark of the 'GitHub bash version'. I plan to make a python version of the code, and that will also have another random mutation so it can be traced back to the 'GitHub python version'.
 
 Have fun!
+
+# Changing the code
+If you decide to update the code somehow (i.e., make it infect files that have a #!/bin/sh shebang as well), make it mutate just once before propagating it, that way you can add your very own mutation to your version, and it will most probably create its own monophyly!
