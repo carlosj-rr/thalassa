@@ -1,5 +1,5 @@
 # thalassa
-A small proto-virus in bash with a DNA sequence that evolves as it propagates.
+A small proto-virus in bash with a DNA sequence that mutates as it propagates.
 
 ## DISCLAIMER
 This bash script _will_ infect all bash files in the folder where it is, and all subfolders. Once they're infected, those bash files will (upon running) also infect all files in their folder and subfolders (unless they're already infected, in which case nothing happens).
